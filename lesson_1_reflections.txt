@@ -1,0 +1,23 @@
+Use FC to find bugs
+Save old file versions
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The bug was pointed out as the difference between the old (correct) and new (incorrect) versions.
+
+Use history to view old file versions
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By allowing for the tracing of a bug back to its source.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The pro is that I can separate changes to logical functions.  The con is that I must remember to do so.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git works with programs whereas Docs works with documents.
+
+How can you use the commands git log and git diff to view the history of files?
+Use git log to view the changes in a repository and git diff to view the changes within a file.
+
+How might using version control make you more confident to make changes that could break something?
+If I make a mistake I can go back to a working version and use git diff to find the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+version control 
